@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<config>
+     <menu>
+        <wlislider module="wlislider">
+            <title>Wlislider</title>
+            <sort_order>71</sort_order>               
+            <children>
+                <items module="wlislider">
+                    <title>Manage Items</title>
+                    <sort_order>71</sort_order>
+                    <action>wlislider/adminhtml_wlislider</action>
+                </items>
+            </children>
+        </wlislider>
+    </menu>
+    <acl>
+       <resources>
+          <admin>
+              <children>
+                  <system>
+                      <children>
+                          <config>
+                              <children>
+                                  <wli_wlislider>
+                                      <title>Wli Slider</title>
+                                  </wli_wlislider>
+                              </children>
+                          </config>
+                      </children>
+                  </system>
+              </children>
+          </admin>
+      </resources>
+    </acl>
+    <layout>
+        <updates>
+            <wlislider>
+                <file>wlislider.xml</file>
+            </wlislider>
+        </updates>
+    </layout>
+</config>

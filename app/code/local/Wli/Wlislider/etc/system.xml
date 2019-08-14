@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <wlislider translate="label" module="wlislider">
+            <label>Wli Slider</label>
+            <sort_order>250</sort_order>
+        </wlislider>
+    </tabs>  
+   <sections>
+        <wli_wlislider>
+            <label>Wli Slider</label>
+            <tab>wlislider</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+            	<wli_wlislider translate="label" module="wlislider">
+                    <label>Wlislider Menu: Config General</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>  
+			<interval translate="label">
+                            <label>Interval: </label>
+                            <comment>Time interval between each slide transition</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </interval>
+                        <autoplay translate="label">
+                            <label>Auto Play: </label>
+                            <comment>Decides whether to start the show automatically</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </autoplay>
+			<transitionType translate="label">
+                            <label>Transition Type: </label>
+                            <comment>Type of transition. Either a fading slideshow or a slider.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>91</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>wlislider/slideroption</source_model>
+                        </transitionType>
+			<transitionTime translate="label">
+                            <label>Transition Time: </label>
+                            <comment>Time taken to animate transition from one slide to the next.</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>92</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </transitionTime>
+			<navigation translate="label">
+                            <label>Navigation: </label>
+                            <comment>Whether to generate/use navigation elements (eg: 1,2,3,4...etc) for each slide for quick navigation.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>93</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </navigation>
+			<controls translate="label">
+                            <label>Controls: </label>
+                            <comment>Whether to generate/use control elements for forward,backward and stop/start.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>94</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </controls>
+			<captions translate="label">
+                            <label>Captions: </label>
+                            <comment>Whether to generate captions from the alt attribute of the img for each slide.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>95</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </captions>
+			<pauseonhover translate="label">
+                            <label>Pause On Hover: </label>
+                            <comment>Pause the show when mouse is hovered over the show element.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>96</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </pauseonhover>
+			<keyboardControls translate="label">
+                            <label>keyboard Controls: </label>
+                            <comment>Bind arrow keys as keyboard controls for forward and backward.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>97</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </keyboardControls>
+			<progressTimer translate="label">
+                            <label>Progress Timer: </label>
+                            <comment>Generate a "whirling" progress timer element to mark progress until next transition occurs. Only available in browsers that support HTML5 canvas.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>98</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </progressTimer>
+
+
+
+			
+			
+		    </fields>
+            	</wli_wlislider>
+            </groups>
+        </wli_wlislider>
+    </sections>       
+</config>

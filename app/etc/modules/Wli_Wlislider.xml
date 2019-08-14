@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<config>
+	<modules>
+		<Wli_Wlislider>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Wli_Wlislider>
+	</modules>
+</config>
