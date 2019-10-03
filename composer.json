@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/sliderbywebline",
+    "name": "OpenMageModuleFostering\/sliderbywebline",
     "type": "magento-module",
     "license": "GNU",
     "homepage": "",
     "description": "Banner Slider",
     "authors": [
-    {
-        "name": "Webline",
-        "email": "partners@weblineindia.com"
-    }
-],
+        {
+            "name": "Webline",
+            "email": "partners@weblineindia.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
